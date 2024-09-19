@@ -1,0 +1,138 @@
+html body {
+  font-family:  "Roboto Light", sans-serif;
+  background-color: #74A06e;
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+  font-size: 64pt;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 28pt;
+  font-weight: lighter;
+  margin-top: 2rem;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100vh - 3rem);
+  margin-top: 5rem;
+}
+
+img#profilePicture {
+  height: 300px;
+  border: 1pt solid #74A06e;
+  border-radius: 50%;
+}
+
+div#profileInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75%;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border: 1pt solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  width: 30%;
+  height: 75%;
+}
+
+.cardTitle {
+  font-size: larger;
+}
+
+.card > img {
+  width: 100%;
+  border: 1pt solid black;
+  border-radius: 5px;
+}
+
+.chipsContainer {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.chip {
+  padding: 8px;
+  margin: 5px;
+  border: 1pt solid #74A06e;
+  background-color: #74A06e;
+  color: white;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+.cardLinks {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.down-arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.grow { 
+  transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+  transform: scale(1.1); 
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 48pt;
+  }
+
+  h3 {
+    font-size: 24pt;
+  }
+
+  img#profilePicture {
+    height: 200px;
+    margin-top: 5rem;
+  }
+
+  div#profileInfo {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .mobileRes {
+    flex-direction: column;
+    align-items: center !important;
+    gap: 1rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
