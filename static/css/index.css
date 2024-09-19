@@ -60,6 +60,8 @@ div#profileInfo {
 
 .cardTitle {
   font-size: larger;
+  /* width: 100%;
+  border-bottom: 1pt solid lightgrey; */
 }
 
 .card > img {
@@ -70,7 +72,6 @@ div#profileInfo {
 
 .chipsContainer {
   display: flex;
-  gap: 0.5rem;
   flex-wrap: wrap;
 }
 
@@ -87,7 +88,9 @@ div#profileInfo {
 .cardLinks {
   display: flex;
   justify-content: space-around;
+  align-items: flex-end;
   margin-top: 2rem;
+  flex: 1;
 }
 
 .down-arrow {

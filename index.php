@@ -14,6 +14,7 @@
   <main>
     <?php include('hero.php') ?>
     <?php include('projects.php') ?>
+    <?php include('experience.php') ?>
   </main>
 </body>
 
