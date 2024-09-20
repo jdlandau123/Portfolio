@@ -40,7 +40,7 @@
 ?>
 <section class="mt-5">
   <h3 class="text-center text-3xl mb-4">Contact Me</h3>
-  <form class="flex flex-col justify-center items-center gap-4 text-black" action="/portfolio/index.php" method="POST">
+  <form class="flex flex-col justify-center items-center gap-4 text-black" action="/" method="POST">
     <input name="name" class="w-full md:w-1/2 p-2 rounded" type="text" placeholder="Name" required />
     <input name="email" class="w-full md:w-1/2 p-2 rounded" type="email" placeholder="Email" required />
     <textarea name="message" class="w-full md:w-1/2 p-2 rounded" type="text" placeholder="Message" required></textarea>
