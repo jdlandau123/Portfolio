@@ -11,7 +11,7 @@
         "email" => $email
       ],
       "to" => array([
-        "email" => "jdlandau123@gmail.com",
+        "email" => $env["EMAIL_ADDRESS"],
         "name" => "Joshua Landau"
       ]),
       "subject" => "New Message From Portfolio Site",
