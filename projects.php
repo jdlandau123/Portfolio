@@ -2,7 +2,7 @@
   <h3 class="text-center text-3xl mb-4">Projects</h3>
   <div class="flex flex-col md:flex-row justify-around items-center gap-4">
     
-    <div class="flex flex-col items-center border border-black rounded text-black md:w-1/3 p-4 bg-white">
+    <div class="flex flex-col items-center border border-black rounded text-black md:w-1/3 p-4 bg-white shadow-xl">
       <p class="text-xl">Audio Ally</p>
       <img src="./static/images/music-organizer-screenshot-min.png" alt="Audio Ally Screenshot" />
       <p>
@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <div class="flex flex-col items-center border border-black rounded text-black md:w-1/3 p-4 bg-white">
+    <div class="flex flex-col items-center border border-black rounded text-black md:w-1/3 p-4 bg-white shadow-xl">
       <p class="text-xl">Texas A&M Flowpath Generation Tool</p>
       <img src="./static/images/tam-screenshot-min.png" alt="Texas A&M Screenshot" />
       <p>
@@ -42,12 +42,12 @@
       </div>
       <div class="flex justify-around items-end mt-4 flex-1">
         <a class="underline" href="https://fastgis.agnet.tamu.edu/alpha/" target="_blank">
-          Production
+          Live Site
         </a>
       </div>
     </div>
 
-    <div class="flex flex-col items-center border border-black rounded text-black md:w-1/3 p-4 bg-white">
+    <div class="flex flex-col items-center border border-black rounded text-black md:w-1/3 p-4 bg-white shadow-xl">
       <p class="text-xl">Kindle NewsReader</p>
       <img src="./static/images/kindle-newsreader-screenshot-min.png" alt="Kindle NewsReader Screenshot" />
       <p>
@@ -68,7 +68,7 @@
           GitHub
         </a>
         <a class="underline" href="https://kindle-newsreader.com" target="_blank">
-          Production
+          Live Site
         </a>
       </div>
     </div>

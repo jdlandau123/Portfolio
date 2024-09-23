@@ -2,7 +2,7 @@
   <h3 class="text-center text-3xl mb-4">Experience</h3>
   <div class="flex flex-col justify-around items-center gap-4">
 
-    <div class="flex flex-col items-center border border-black rounded text-black md:w-3/4 p-4 bg-white">
+    <div class="flex flex-col items-center border border-black rounded text-black md:w-3/4 p-4 bg-white shadow-xl">
       <p class="text-xl border-b text-left w-full">GIS Software Developer</p>
       <div class="flex justify-between w-full mt-2">
         <p>DecisionPoint Corp.</p>
@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <div class="flex flex-col items-center border border-black rounded text-black md:w-3/4 p-4 bg-white">
+    <div class="flex flex-col items-center border border-black rounded text-black md:w-3/4 p-4 bg-white shadow-xl">
       <p class="text-xl border-b text-left w-full">GIS Developer</p>
       <div class="flex justify-between w-full mt-2">
         <p>Innovate Inc.</p>
@@ -44,12 +44,11 @@
         <div class="p-2 m-1 border rounded-3xl border-background bg-background text-white w-fit">React</div>
         <div class="p-2 m-1 border rounded-3xl border-background bg-background text-white w-fit">Docker</div>
         <div class="p-2 m-1 border rounded-3xl border-background bg-background text-white w-fit">ArcGIS Enterprise</div>
-        <div class="p-2 m-1 border rounded-3xl border-background bg-background text-white w-fit">React</div>
         <div class="p-2 m-1 border rounded-3xl border-background bg-background text-white w-fit">SQL</div>
       </div>
     </div>
 
-    <div class="flex flex-col items-center border border-black rounded text-black md:w-3/4 p-4 bg-white">
+    <div class="flex flex-col items-center border border-black rounded text-black md:w-3/4 p-4 bg-white shadow-xl">
       <p class="text-xl border-b text-left w-full">Lead Back-End Software Engineer - <i>Freelance</i></p>
       <div class="flex justify-between w-full mt-2">
         <p>SmartIntro</p>
@@ -71,7 +70,7 @@
       </div>
     </div>
 
-    <div class="flex flex-col items-center border border-black rounded text-black md:w-3/4 p-4 bg-white">
+    <div class="flex flex-col items-center border border-black rounded text-black md:w-3/4 p-4 bg-white shadow-xl">
       <p class="text-xl border-b text-left w-full">Environmental GIS Analyst</p>
       <div class="flex justify-between w-full mt-2">
         <p>Tehama LLC</p>
@@ -90,7 +89,7 @@
       </div>
     </div>
 
-    <div class="flex flex-col items-center border border-black rounded text-black md:w-3/4 p-4 bg-white">
+    <div class="flex flex-col items-center border border-black rounded text-black md:w-3/4 p-4 bg-white shadow-xl">
       <p class="text-xl border-b text-left w-full">Geospatial Technician</p>
       <div class="flex justify-between w-full mt-2">
         <p>Quantum Spatial</p>
@@ -102,6 +101,12 @@
         and maintaining many large geospatial datasets. I also had the opportunity to use my Python skills to 
         develop some custom automated workflows for data processing and formatting.
       </p>
+      <div class="flex justify-start w-full flex-wrap mt-4">
+      <div class="p-2 m-1 border rounded-3xl border-background bg-background text-white w-fit">Python</div>
+      <div class="p-2 m-1 border rounded-3xl border-background bg-background text-white w-fit">SQL</div>
+        <div class="p-2 m-1 border rounded-3xl border-background bg-background text-white w-fit">ArcMap</div>
+        <div class="p-2 m-1 border rounded-3xl border-background bg-background text-white w-fit">ArcPy</div>
+      </div>
     </div>
 
     <a href="./static/Joshua_Landau_Resume.pdf" download="Joshua_Landau_Resume" target="_blank">

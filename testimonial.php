@@ -1,7 +1,7 @@
 <section class="flex flex-col mt-5">
   <h3 class="text-center text-3xl mb-4">Testimonial</h3>
   <div class="flex justify-center mt-3">
-    <div class="flex flex-col items-center border border-black rounded text-black md:w-3/4 p-4 bg-white">
+    <div class="flex flex-col items-center border border-black rounded text-black md:w-3/4 p-4 bg-white shadow-xl">
       <blockquote class="blockquote mb-0">
         <p class="text-start fs-6">
           "Searching for a Python wizard who's as personable as he's proficient? Meet Joshua
