@@ -12,10 +12,10 @@
 
 <body class="bg-background text-white p-5 font-sans">
   <main>
-    <?php include('hero.php') ?>
-    <?php include('projects.php') ?>
-    <?php include('experience.php') ?>
-    <?php include('testimonial.php') ?>
+    <?php include('hero.html') ?>
+    <?php include('projects.html') ?>
+    <?php include('experience.html') ?>
+    <?php include('testimonial.html') ?>
     <?php include('contact.php') ?>
   </main>
   <footer class="text-center mt-5 text-white">
