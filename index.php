@@ -16,7 +16,7 @@
     <?php include('projects.html') ?>
     <?php include('experience.html') ?>
     <?php include('testimonial.html') ?>
-    <?php include('contact.php') ?>
+    <!-- <?php include('contact.php') ?> -->
   </main>
   <footer class="text-center mt-5 text-white">
     &copy <?php echo date("Y") ?> Joshua Landau
