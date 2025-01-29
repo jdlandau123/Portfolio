@@ -1,0 +1,303 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="robots" content="index" />
+  <meta name="description" content="Joshua Landau Developer Portfolio" />
+  <title>Joshua Landau Developer Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="./static/icons/favicon.svg" />
+  <link href="./static/css/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main>
+    <!-- Hero Section-->
+    <section style="height: calc(100vh - 3rem)">
+      <div style="display: flex; justify-content: flex-end; gap: 1.5rem; width: 100%;">
+        <a href="https://github.com/jdlandau123" target="_blank">
+          <img class="icon grow" src="./static/icons/github-white.png" alt="GitHub" />
+        </a>
+        <a href="https://linkedin.com/in/joshuadlandau" target="_blank">
+          <img class="icon grow" src="./static/icons/linkedin-64.png" alt="LinkedIn" />
+        </a>
+      </div>
+      <div id="hero-main">
+        <div>
+          <h1 style="margin: 0; padding: 0; font-size: 3.75rem; font-weight: bold;">
+            Joshua Landau
+          </h1>
+          <h3 style="padding: 0; margin-top: 1rem; font-size: 1.875rem; font-weight: 400;">
+            Software Developer
+          </h3>
+          <!-- <div style="display: flex; gap: 1.25rem;">
+            <a href="https://github.com/jdlandau123" target="_blank">
+              <img class="icon grow" src="./static/icons/github-white.png" alt="GitHub" />
+            </a>
+            <a href="https://linkedin.com/in/joshuadlandau" target="_blank">
+              <img class="icon grow" src="./static/icons/linkedin-64.png" alt="LinkedIn" />
+            </a>
+          </div> -->
+        </div>
+        <img id="profile-picture" src="./static/images/profile-picture-min.png"
+          alt="Profile Picture" />
+      </div>
+      <div style="text-align: center;">
+        <i class="down-arrow"></i>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section style="margin-top: 5rem;">
+      <h3 class="section-title">Projects</h3>
+      <div id="projects-wrapper">
+        <div class="item-wrapper w-third">
+          <p class="project-title">Audio Ally</p>
+          <img src="./static/images/music-organizer-screenshot-min.png" alt="Audio Ally Screenshot" />
+          <p>
+            A desktop application I made to easily track and manage the albums in my 
+            personal music collection and sync files to my iPod. This application uses the 
+            Wails framework to create a Svelte-powered WebView for a front end. I come back to
+            this project regularly since I use it so often, and right now I am working on preparing
+            it for public distribution and integrating cloud backups.
+          </p>
+          <div class="flex-wrap">
+            <div class="chip">Golang</div>
+            <div class="chip">Svelte</div>
+            <div class="chip">SQLite</div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/jdlandau123/Music-Organizer-Wails" target="_blank">
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="item-wrapper w-third">
+          <p class="project-title">RISE Web Mapping Interface</p>
+          <img src="./static/images/rise-screenshot-min.png" alt="RISE Web Map Screenshot" />
+          <p>
+            A web mapping interface that I built as the GIS Developer at DecisionPoint. This 
+            application is a complete rebuild from the previous version which I had the opportunity
+            to lead from the beginning. It uses ArcGIS Experience Builder Developer Edition to seamlessly
+            integrate with the Bureau of Reclamation's GIS data and provide both essential and custom functionality
+            that allows users to interact with publicly available data in a modern and responsive way.
+          </p>
+          <div class="flex-wrap">
+            <div class="chip">ArcGIS Javascript SDK</div>
+            <div class="chip">ArcGIS Experience Builder</div>
+            <div class="chip">React</div>
+            <div class="chip">Redux</div>
+          </div>
+          <div class="project-links">
+            <a href="https://data.usbr.gov/rise-map/beta/" target="_blank">
+              Live Site
+            </a>
+          </div>
+        </div>
+    
+        <!-- <div class="item-wrapper w-third">
+          <p class="project-title">Texas A&M Flowpath Generation Tool</p>
+          <img src="./static/images/tam-screenshot-min.png" alt="Texas A&M Screenshot" />
+          <p>
+            A web application that generates a raster dataset to determine which areas within the selected 
+            area of interest are at the highest risk of flooding. I began this project during my 
+            employment at Innovate Inc and developed it through two iterations. I was the only 
+            developer working on the client side functionality at the time, which I started off with
+            vanilla Javascript and later transitioned into a Svelte front end. 
+          </p>
+          <div class="flex-wrap">
+            <div class="chip">ArcGIS Javascript SDK</div>
+            <div class="chip">HTML</div>
+            <div class="chip">CSS</div>
+            <div class="chip">Javascript</div>
+          </div>
+          <div class="project-links">
+            <a href="https://fastgis.agnet.tamu.edu/alpha/" target="_blank">
+              Live Site
+            </a>
+          </div>
+        </div> -->
+    
+        <div class="item-wrapper w-third">
+          <p class="project-title">Kindle NewsReader</p>
+          <img src="./static/images/kindle-newsreader-screenshot-min.png" alt="Kindle NewsReader Screenshot" />
+          <p>
+            An application that generates customizable daily newspapers and automatically 
+            delivers them to registered Kindle devices every morning. This application 
+            consists of two parts: an ASP .NET Core MVC front end and a .NET console application. The 
+            front end allows users to sign up and configure their Kindle, as well as select specific
+            categories they want to read, while the console application is scheduled to scrape news 
+            articles, generate the newspapers, and deliver them to the devices.
+          </p>
+          <div class="flex-wrap">
+            <div class="chip">C#</div>
+            <div class="chip">.NET</div>
+            <div class="chip">ASP .NET Core MVC</div>
+          </div>
+          <div class="project-links" style="gap: 1.25rem;">
+            <a href="https://github.com/jdlandau123/Kindle-NewsReader" target="_blank">
+              GitHub
+            </a>
+            <a href="https://kindle-newsreader.com" target="_blank">
+              Live Site
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section style="margin-top: 5rem;">
+      <h3 class="section-title">Experience</h3>
+      <div style="display: flex; flex-direction: column; justify-content: space-around; align-items: center; gap: 1rem;">
+        <div class="item-wrapper">
+          <p class="experience-title">GIS Software Developer</p>
+          <div class="experience-details">
+            <p>DecisionPoint Corp.</p>
+            <p>February 2024 - Current</p>
+          </div>
+          <p style="margin-top: 1rem;">
+            In this role I was the GIS Developer on the RISE team, contracted by the US Bureau of Reclamation. Some 
+            notable projects I worked on include migrating the old map interface from ArcGIS Web AppBuilder to ArcGIS
+            Experience Builder and rewriting a .NET codebase which performs data aggregation and map generation. In addition,
+            I also performed regular development tasks including updating the API, containerizing services for deployment,
+            and assisting with the front end.
+          </p>
+          <div class="flex-wrap" style="justify-content: flex-start; width: 100%; margin-top: 1rem;">
+            <div class="chip">Python</div>
+            <div class="chip">Javascript</div>
+            <div class="chip">C#/.NET</div>
+            <div class="chip">Docker</div>
+            <div class="chip">ArcGIS Experience Builder</div>
+            <div class="chip">React</div>
+            <div class="chip">SQL</div>
+          </div>
+        </div>
+    
+        <div class="item-wrapper">
+          <p class="experience-title">GIS Developer</p>
+          <div class="experience-details">
+            <p>Innovate Inc.</p>
+            <p>April 2022 - February 2024</p>
+          </div>
+          <p style="margin-top: 1rem;">
+            At Innovate I have been able to work on a wide range of interesting projects for both private and 
+            government clients. Some of the tasks that I frequently work on include developing new and existing REST 
+            API services using Django REST Framework, building complex user interfaces with Angular, and integrating 
+            geospatial datasets into our applications with ESRI's ArcGIS Enterprise tooling.
+          </p>
+          <div class="flex-wrap" style="justify-content: flex-start; width: 100%; margin-top: 1rem;">
+            <div class="chip">Django</div>
+            <div class="chip">Angular</div>
+            <div class="chip">React</div>
+            <div class="chip">Docker</div>
+            <div class="chip">ArcGIS Enterprise</div>
+            <div class="chip">SQL</div>
+          </div>
+        </div>
+    
+        <div class="item-wrapper">
+          <p class="experience-title">Lead Back-End Software Engineer - <i>Freelance</i></p>
+          <div class="experience-details">
+            <p>SmartIntro</p>
+            <p>March 2023 - October 2023</p>
+          </div>
+          <p style="margin-top: 1rem;">
+            As lead back-end engineer I have been able to design and implement this application's architecture and 
+            back-end services from the ground up. This has included developing a Django REST API, implementing scalable 
+            and asynchronous background processing with Celery, and employing Docker to containerize and deploy the 
+            application via an Nginx web server. I also contributed to the application's user interface, which is built 
+            with React using Material UI.
+          </p>
+          <div class="flex-wrap" style="justify-content: flex-start; width: 100%; margin-top: 1rem;">
+            <div class="chip">Django REST Framework</div>
+            <div class="chip">React</div>
+            <div class="chip">Docker</div>
+            <div class="chip">AWS</div>
+            <div class="chip">SQL</div>
+          </div>
+        </div>
+    
+        <div class="item-wrapper">
+          <p class="experience-title">Environmental GIS Analyst</p>
+          <div class="experience-details">
+            <p>Tehama LLC</p>
+            <p>October 2020 - April 2022</p>
+          </div>
+          <p style="margin-top: 1rem;">
+            My GIS knowledge grew immensely during my time at Tehama. The core responsibilities of this position 
+            involved interpreting, manipulating, visualizing, and managing large geospatial datasets. The main tools 
+            I used to accomplish these tasks included Python, SQL, and ArcGIS Pro.
+          </p>
+          <div class="flex-wrap" style="justify-content: flex-start; width: 100%; margin-top: 1rem;">
+            <div class="chip">Python</div>
+            <div class="chip">SQL</div>
+            <div class="chip">ArcPy</div>
+            <div class="chip">ArcGIS Pro</div>
+          </div>
+        </div>
+    
+        <div class="item-wrapper">
+          <p class="experience-title">Geospatial Technician</p>
+          <div class="experience-details">
+            <p>Quantum Spatial</p>
+            <p>August 2019 - September 2020</p>
+          </div>
+          <p style="margin-top: 1rem;">
+            Being my first full-time position after graduting from Florida State University, my time at Quantum 
+            Spatial was foundational to my professional development. In this position I was responsible for creating 
+            and maintaining many large geospatial datasets. I also had the opportunity to use my Python skills to 
+            develop some custom automated workflows for data processing and formatting.
+          </p>
+          <div class="flex-wrap" style="justify-content: flex-start; width: 100%; margin-top: 1rem;">
+            <div class="chip">Python</div>
+            <div class="chip">SQL</div>
+            <div class="chip">ArcMap</div>
+            <div class="chip">ArcPy</div>
+          </div>
+        </div>
+    
+        <a href="./static/Joshua_Landau_Resume.pdf" download="Joshua_Landau_Resume" target="_blank">
+          <button id="resume-btn" type="button" class="grow">
+            Download Full Resume
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section style="margin-top: 5rem;">
+      <h3 class="section-title">Testimonial</h3>
+      <div style="display: flex; justify-content: center; margin-top: 0.75rem;">
+        <div class="item-wrapper">
+          <blockquote style="margin: 0;">
+            <p>
+              "Searching for a Python wizard who's as personable as he's proficient? Meet Joshua
+              turning coding crises into software victories with ease and efficiency. My SaaS project was on the
+              verge of becoming another unfinished tale when Joshua stepped in. Our front end developer left a lot
+              unfinished and a working prototype was nowhere to be found. Joshua, however, turned the tables around
+              swiftly and adeptly. His unparalleled skills and relentless determination transformed our precarious
+              situation into a stunning MVP in a flash. But Joshua's talents aren't restricted to coding. His friendly
+              nature and stellar communication skills make him an excellent team player. When looking for a
+              professional who seamlessly combines coding competence with a congenial demeanor, Joshua is the clear
+              choice."
+            </p>
+            <p style="margin-top: 0.75rem; text-align: right;">
+              <cite title="Jordan Silvera, Founder of SmartIntro">Jordan Silvera, Founder of SmartIntro</cite>
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer style="text-align: center; margin-top: 3rem; color: white"></footer>
+  <script>
+    const footer = document.querySelector('footer');
+    const year = new Date().getFullYear();
+    footer.innerText = `\u00A9 ${year} Joshua Landau`;
+  </script>
+</body>
+
+</html>
